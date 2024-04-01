@@ -14,7 +14,7 @@ app.use(cors())
 
 const url="mongodb://localhost:27017/todoApp"
 
-mongoose.connect(url)
+mongoose.connect(process.env.MONGO_URL)
 .then(()=>console.log("connected to MongoDB..."))
 .catch((err)=>console.log(err))
 

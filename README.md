@@ -12,9 +12,7 @@ This is a simple todo application built using the MERN (MongoDB, Express.js, Rea
 - **Frontend:**
   - React.js
   - tailwind CSS
-  - Redux (for state management)
   - Axios (for making HTTP requests)
-  - React Router (for client-side routing)
 
 - **Backend:**
   - Node.js

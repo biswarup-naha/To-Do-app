@@ -1,6 +1,7 @@
 import React from 'react';
-import { MdDeleteForever } from "react-icons/md";
+
 import { BiSolidEdit } from "react-icons/bi";
+import { AiFillDelete } from "react-icons/ai";
 
 const Todo = ({text, updateMode, deleteTodo}) => {
   return (
@@ -8,7 +9,7 @@ const Todo = ({text, updateMode, deleteTodo}) => {
         <div>{text}</div>
         <div className='icons absolute top-2/4 -translate-y-1/2 right-5 flex gap-5'>
             <BiSolidEdit className='icon cursor-pointer text-xl' onClick={updateMode} />
-            <MdDeleteForever className='icon cursor-pointer text-xl' onClick={deleteTodo} />
+            <AiFillDelete className='icon cursor-pointer text-xl' onClick={deleteTodo} />
         </div>
     </div>
   )
