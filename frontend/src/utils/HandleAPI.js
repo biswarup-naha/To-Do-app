@@ -1,10 +1,10 @@
 import axios from 'axios'
 
-const baseUrl="https://to-do-app-vdf5.onrender.com/"
+const baseUrl="https://to-do-app-vdf5.onrender.com"
 
 const getAllTodo=(setTodo)=>{
     axios
-    .get(baseUrl)
+    .get(`${baseUrl}/`)
     .then(({data})=>{
         console.log('data --->',data);
         setTodo(data);
