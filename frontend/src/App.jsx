@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Todo from "./components/Todo"
 import { addTodo, getAllTodo, updateTodo, deleteTodo } from "./utils/HandleAPI";
-import ToggleDark from "./components/ToggleDark";
 
 
 function App() {

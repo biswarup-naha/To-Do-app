@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl="http://localhost:3000"
+const baseUrl="https://to-do-app-vdf5.onrender.com/"
 
 const getAllTodo=(setTodo)=>{
     axios
